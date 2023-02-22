@@ -173,7 +173,8 @@ body{
     font-size: 40px;
     margin-bottom: 50px;
     font-family: 'DM Serif Display', serif;
-    color: var(--Very-Dark-VioletD);
+    color: var(--Very-Dark-Violet);
+    display: inline-block;
 }
 .articles-flexbox > article > h3{
     color: var(--Very-Dark-VioletD);
@@ -378,6 +379,8 @@ hr{
         "family-text";
         color: white;
         background-color: var(--Dark-Violet);
+        width: 100%;
+        height: 100%;
     }
     .family-text{
         grid-area: family-text;
@@ -401,7 +404,6 @@ hr{
         color: white;
         cursor: pointer;
         font-weight: 700;
-
     }
     .family-pic-div{
         grid-area: family-pic-div;
@@ -474,5 +476,9 @@ hr{
     }
     .articles-div {
         margin-top: 100px;
+    }
+    .outer-main-family{
+        height: 100%;
+        width: 100%;
     }
 }
