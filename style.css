@@ -341,6 +341,32 @@ hr{
     .articles-div h2{
         text-align: left;
     }
+    .articles-div{
+        padding: 20px;
+    }
+    footer{
+        padding: 20px;
+    }
+    .family-text{
+        padding: 0px;
+        padding-right: 10px;
+    }
+    .family-text > div > h1{
+        padding: 0;
+        font-size: 35px;
+    }
+    .family-pic-div{
+        margin: 0;
+    }
+    .outer-main-family::before{
+        right: -30%;
+    }
+    .outer-main-family{
+        overflow: hidden;
+    }
+    .articles-div{
+        margin-top: 50px;
+    }
 }
 
 @media only screen and (max-width: 650px){
